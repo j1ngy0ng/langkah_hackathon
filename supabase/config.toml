@@ -1,0 +1,5 @@
+project_id = "langkah"
+
+# Supabase Auth signs this webhook; end-user JWTs are not used here.
+[functions.langkah-send-email]
+verify_jwt = false
